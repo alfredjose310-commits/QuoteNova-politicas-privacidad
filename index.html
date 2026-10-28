@@ -1,1 +1,344 @@
+<!doctype html>
+<!--
+  QuoteNova · Política de privacidad y de uso personal (es / en / pt)
+  Página estática para publicar en una URL pública (requisito de Google Play).
+  Antes de publicar: reemplaza SOPORTE@EJEMPLO.COM por tu correo de soporte
+  (aparece 6 veces, dos por idioma) y usa la URL resultante en PRIVACY_URL y en Play Console.
+-->
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuoteNova · Política de privacidad</title>
+  <meta name="description" content="Política de privacidad y de uso personal de QuoteNova, generador de cotizaciones para Android. Privacy policy · Política de privacidade.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    :root {
+      --bg: #f3f7f6;
+      --card: #ffffff;
+      --ink: #1f2b30;
+      --muted: #5f6e74;
+      --line: #e3e9e8;
+      --accent: #148a80;
+      --accent-soft: #e2f5f2;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1a1c;
+        --card: #16262a;
+        --ink: #e6efee;
+        --muted: #a3b4b8;
+        --line: #26393d;
+        --accent: #5fd6c0;
+        --accent-soft: #19363a;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    header {
+      background: linear-gradient(135deg, #4fd8c6, #14838a);
+      color: #fff;
+      padding: 40px 16px 72px;
+    }
+    .wrap { max-width: 820px; margin: 0 auto; }
+    .brand { display: flex; align-items: center; gap: 14px; }
+    .brand img { width: 56px; height: 56px; border-radius: 14px; box-shadow: 0 6px 18px rgba(0,0,0,.18); }
+    .brand strong { font-size: 1.5rem; letter-spacing: -.01em; }
+    header h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); line-height: 1.2; margin: 22px 0 6px; }
+    header p { margin: 0; opacity: .92; }
+    nav.langs { display: flex; gap: 8px; margin-top: 20px; flex-wrap: wrap; }
+    nav.langs a {
+      color: #fff; text-decoration: none; padding: 6px 16px; border-radius: 999px;
+      border: 1.5px solid rgba(255,255,255,.7); font-weight: 600; font-size: .95rem;
+    }
+    nav.langs a[aria-current="true"] { background: #fff; color: #10646b; border-color: #fff; }
+    main { padding: 0 16px 48px; margin-top: -44px; }
+    article {
+      background: var(--card); border-radius: 22px; padding: 28px clamp(18px, 4vw, 40px);
+      box-shadow: 0 10px 30px rgba(20, 60, 60, .08); margin-bottom: 24px;
+    }
+    .meta { color: var(--muted); font-size: .92rem; margin: 0 0 8px; }
+    h2 { font-size: 1.35rem; margin: 0 0 6px; }
+    h3 { font-size: 1.05rem; margin: 28px 0 6px; color: var(--accent); }
+    ul { padding-left: 1.2em; margin: 8px 0; }
+    li { margin: 4px 0; }
+    code { background: var(--accent-soft); padding: 1px 6px; border-radius: 6px; font-size: .9em; }
+    .note { background: var(--accent-soft); border-radius: 14px; padding: 12px 16px; margin: 14px 0 0; }
+    a { color: var(--accent); }
+    footer { text-align: center; color: var(--muted); font-size: .88rem; padding: 0 16px 32px; }
+    /* Con JavaScript se muestra un idioma a la vez; sin él, los tres. */
+    .js article[data-lang] { display: none; }
+    .js article[data-lang].active { display: block; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand">
+        <img src="logo.png" alt="" width="56" height="56">
+        <strong>QuoteNova</strong>
+      </div>
+      <h1 id="page-title">Política de privacidad y de uso personal</h1>
+      <p id="page-sub">Generador de cotizaciones para Android</p>
+      <nav class="langs" aria-label="Idioma / Language / Idioma">
+        <a href="#es" data-go="es" lang="es">Español</a>
+        <a href="#en" data-go="en" lang="en">English</a>
+        <a href="#pt" data-go="pt" lang="pt">Português</a>
+      </nav>
+    </div>
+  </header>
 
+  <main class="wrap">
+    <!-- ───────────────────────────── ESPAÑOL ───────────────────────────── -->
+    <article id="es" data-lang="es" lang="es">
+      <h2>Política de privacidad</h2>
+      <p class="meta">Última actualización: 27 de octubre de 2026 · Aplicación: QuoteNova (<code>com.quotenova.alfredoyujra</code>)</p>
+      <p>Responsable: Alfredo Yujra · Contacto: <a href="mailto:SOPORTE@EJEMPLO.COM">SOPORTE@EJEMPLO.COM</a></p>
+      <p class="note"><strong>Resumen:</strong> tus datos se guardan solo en tu teléfono. No tenemos servidores, no pedimos cuenta, no mostramos publicidad y no rastreamos tu uso.</p>
+
+      <h3>1. Uso personal</h3>
+      <p>QuoteNova es una herramienta de uso personal y de apoyo informativo para preparar cotizaciones. No está diseñada ni autorizada por defecto como sistema oficial empresarial, corporativo, institucional ni gubernamental, y no representa a ninguna entidad gubernamental. No es un sistema de facturación fiscal, contabilidad oficial ni certificación, y no sustituye registros, controles, asesoría ni procesos oficiales. Eres responsable de verificar los datos, importes e impuestos y de cumplir las normas que te correspondan. Nada en esta política limita derechos que la ley aplicable no permita excluir.</p>
+
+      <h3>2. Qué datos se guardan y dónde</h3>
+      <ul>
+        <li>Clientes, productos, cotizaciones, impuestos, formatos, tu perfil de emisor (incluido el logo si lo agregas) y tus preferencias se guardan <strong>solo en tu teléfono</strong>, en una base de datos local.</li>
+        <li>No tenemos servidores ni bases de datos externas con tu información y no la recibimos.</li>
+        <li>No necesitas crear una cuenta para usar la app.</li>
+      </ul>
+
+      <h3>3. Envío de cotizaciones</h3>
+      <p>Cuando tú lo decides, la app genera el PDF o la imagen JPG de una cotización y lo entrega a la app que eliges (WhatsApp, correo u otra). Desde ese momento, el archivo y el mensaje quedan sujetos a la política de privacidad de esa app. QuoteNova no envía nada por su cuenta.</p>
+
+      <h3>4. Logo, importación y exportación</h3>
+      <ul>
+        <li>El logo se elige con el selector de fotos de Android; la app solo accede a la imagen que eliges y guarda una copia local.</li>
+        <li>Importar y exportar (Excel, CSV, PDF, JPG) usan el selector de archivos del sistema: la app solo lee o escribe los archivos que tú eliges.</li>
+      </ul>
+
+      <h3>5. Copia de seguridad en Google Drive (opcional)</h3>
+      <ul>
+        <li>Solo si la activas, la app inicia sesión con Google mediante OAuth 2.0 para acceder <strong>únicamente</strong> a su carpeta privada dentro de tu propio Google Drive (alcance <code>drive.appdata</code>). No puede ver tus otros archivos.</li>
+        <li>Nunca pedimos ni guardamos tu contraseña de Google.</li>
+        <li>La copia se cifra en el teléfono (AES-256-GCM) con una clave derivada de una frase que tú eliges. No conocemos esa frase: si la pierdes, no podemos recuperar la copia.</li>
+        <li>Puedes desconectar la cuenta en cualquier momento; tus datos del teléfono no se borran. Las copias pueden eliminarse desde tu cuenta de Google.</li>
+      </ul>
+
+      <h3>6. Compras</h3>
+      <p>Las compras de QuoteNova Pro las procesa Google Play. No recibimos ni guardamos datos de pago. La app consulta a Google Play el estado de tus compras para activar Pro.</p>
+
+      <h3>7. Publicidad, analítica y rastreo</h3>
+      <p>La app no muestra publicidad, no integra SDK de anuncios ni de analítica, no usa el identificador de publicidad y no comparte ni vende datos.</p>
+
+      <h3>8. Notificaciones</h3>
+      <p>Las alertas (vencimientos y seguimiento) se programan en el teléfono con tus datos locales. Puedes desactivarlas en la app o en los ajustes de Android.</p>
+
+      <h3>9. Permisos</h3>
+      <ul>
+        <li><strong>Internet y estado de red:</strong> solo para la copia en Drive y las compras de Google Play.</li>
+        <li><strong>Notificaciones:</strong> para las alertas que tú activas.</li>
+        <li><strong>Inicio del teléfono:</strong> para reprogramar las alertas tras reiniciar.</li>
+      </ul>
+      <p>La app no pide acceso a contactos, ubicación, cámara, micrófono ni almacenamiento general.</p>
+
+      <h3>10. Seguridad</h3>
+      <p>Los datos permanecen en el almacenamiento privado de la app. Las copias en Drive viajan y se guardan cifradas. Las copias de seguridad automáticas de Android están desactivadas para la app.</p>
+
+      <h3>11. Conservación y eliminación de datos</h3>
+      <p>Los datos se conservan en tu teléfono hasta que los borres. Puedes eliminarlos en <strong>Más › Datos › Eliminar todos los datos</strong> o desinstalando la app. Las copias en Drive se eliminan desde tu cuenta de Google.</p>
+
+      <h3>12. Menores</h3>
+      <p>La app no está dirigida a menores de 13 años.</p>
+
+      <h3>13. Cambios</h3>
+      <p>Publicaremos en esta página cualquier cambio a esta política, con su fecha de actualización.</p>
+
+      <h3>14. Contacto</h3>
+      <p>Dudas o solicitudes: <a href="mailto:SOPORTE@EJEMPLO.COM">SOPORTE@EJEMPLO.COM</a></p>
+    </article>
+
+    <!-- ───────────────────────────── ENGLISH ───────────────────────────── -->
+    <article id="en" data-lang="en" lang="en">
+      <h2>Privacy policy</h2>
+      <p class="meta">Last updated: October 27, 2026 · App: QuoteNova (<code>com.quotenova.alfredoyujra</code>)</p>
+      <p>Controller: Alfredo Yujra · Contact: <a href="mailto:SOPORTE@EJEMPLO.COM">SOPORTE@EJEMPLO.COM</a></p>
+      <p class="note"><strong>Summary:</strong> your data stays only on your phone. We have no servers, require no account, show no ads and do not track you.</p>
+
+      <h3>1. Personal use</h3>
+      <p>QuoteNova is a personal-use tool for informational support in preparing quotes. By default, it is not designed or authorized as an official business, corporate, institutional or government system, and it does not represent any government entity. It is not a tax invoicing system, official accounting or certification, and it does not replace official records, controls, advice or processes. You are responsible for checking data, amounts and taxes and for following the rules that apply to you. Nothing in this policy limits rights that applicable law does not allow to be excluded.</p>
+
+      <h3>2. What data is stored and where</h3>
+      <ul>
+        <li>Clients, products, quotes, taxes, formats, your issuer profile (including your logo if you add one) and your preferences are stored <strong>only on your phone</strong>, in a local database.</li>
+        <li>We have no servers or external databases with your information and we do not receive it.</li>
+        <li>No account is required to use the app.</li>
+      </ul>
+
+      <h3>3. Sending quotes</h3>
+      <p>When you choose to, the app creates the PDF or JPG image of a quote and hands it to the app you pick (WhatsApp, email or another). From then on, the file and message are subject to that app's privacy policy. QuoteNova never sends anything on its own.</p>
+
+      <h3>4. Logo, import and export</h3>
+      <ul>
+        <li>The logo is chosen with the Android photo picker; the app only accesses the image you pick and keeps a local copy.</li>
+        <li>Import and export (Excel, CSV, PDF, JPG) use the system file picker: the app only reads or writes the files you choose.</li>
+      </ul>
+
+      <h3>5. Google Drive backup (optional)</h3>
+      <ul>
+        <li>Only if you turn it on, the app signs in with Google through OAuth 2.0 to access <strong>only</strong> its private folder in your own Google Drive (<code>drive.appdata</code> scope). It cannot see your other files.</li>
+        <li>We never ask for or store your Google password.</li>
+        <li>The backup is encrypted on the phone (AES-256-GCM) with a key derived from a phrase you choose. We don't know that phrase: if you lose it, we cannot recover the backup.</li>
+        <li>You can disconnect the account anytime; the data on your phone is not deleted. Backups can be deleted from your Google account.</li>
+      </ul>
+
+      <h3>6. Purchases</h3>
+      <p>QuoteNova Pro purchases are processed by Google Play. We don't receive or store payment details. The app checks your purchase status with Google Play to enable Pro.</p>
+
+      <h3>7. Ads, analytics and tracking</h3>
+      <p>The app shows no ads, includes no advertising or analytics SDKs, does not use the advertising ID and does not share or sell data.</p>
+
+      <h3>8. Notifications</h3>
+      <p>Alerts (expiry and follow-up) are scheduled on the phone using your local data. You can turn them off in the app or in Android settings.</p>
+
+      <h3>9. Permissions</h3>
+      <ul>
+        <li><strong>Internet and network state:</strong> only for Drive backup and Google Play purchases.</li>
+        <li><strong>Notifications:</strong> for the alerts you turn on.</li>
+        <li><strong>Device boot:</strong> to reschedule alerts after a restart.</li>
+      </ul>
+      <p>The app does not request contacts, location, camera, microphone or general storage access.</p>
+
+      <h3>10. Security</h3>
+      <p>Data stays in the app's private storage. Drive backups are encrypted in transit and at rest. Android automatic backup is disabled for the app.</p>
+
+      <h3>11. Retention and deletion</h3>
+      <p>Data is kept on your phone until you delete it. You can delete it in <strong>More › Data › Delete all data</strong> or by uninstalling the app. Drive backups are deleted from your Google account.</p>
+
+      <h3>12. Children</h3>
+      <p>The app is not directed to children under 13.</p>
+
+      <h3>13. Changes</h3>
+      <p>Any change to this policy will be published on this page with its update date.</p>
+
+      <h3>14. Contact</h3>
+      <p>Questions or requests: <a href="mailto:SOPORTE@EJEMPLO.COM">SOPORTE@EJEMPLO.COM</a></p>
+    </article>
+
+    <!-- ──────────────────────────── PORTUGUÊS ──────────────────────────── -->
+    <article id="pt" data-lang="pt" lang="pt">
+      <h2>Política de privacidade</h2>
+      <p class="meta">Última atualização: 27 de outubro de 2026 · App: QuoteNova (<code>com.quotenova.alfredoyujra</code>)</p>
+      <p>Responsável: Alfredo Yujra · Contato: <a href="mailto:SOPORTE@EJEMPLO.COM">SOPORTE@EJEMPLO.COM</a></p>
+      <p class="note"><strong>Resumo:</strong> seus dados ficam apenas no seu celular. Não temos servidores, não pedimos conta, não exibimos anúncios e não rastreamos você.</p>
+
+      <h3>1. Uso pessoal</h3>
+      <p>O QuoteNova é uma ferramenta de uso pessoal e de apoio informativo para preparar orçamentos. Por padrão, não foi projetado nem autorizado como sistema oficial empresarial, corporativo, institucional ou governamental, e não representa nenhuma entidade governamental. Não é sistema de emissão de notas fiscais, contabilidade oficial ou certificação, e não substitui registros, controles, assessoria ou processos oficiais. Você é responsável por verificar dados, valores e impostos e por cumprir as normas aplicáveis. Nada nesta política limita direitos que a lei aplicável não permita excluir.</p>
+
+      <h3>2. Quais dados são guardados e onde</h3>
+      <ul>
+        <li>Clientes, produtos, orçamentos, impostos, formatos, seu perfil de emissor (incluindo o logo, se você adicionar) e suas preferências ficam <strong>apenas no seu celular</strong>, em um banco de dados local.</li>
+        <li>Não temos servidores nem bancos de dados externos com suas informações e não as recebemos.</li>
+        <li>Não é necessário criar conta para usar o app.</li>
+      </ul>
+
+      <h3>3. Envio de orçamentos</h3>
+      <p>Quando você decide, o app gera o PDF ou a imagem JPG de um orçamento e o entrega ao app que você escolher (WhatsApp, e-mail ou outro). A partir daí, o arquivo e a mensagem ficam sujeitos à política de privacidade desse app. O QuoteNova não envia nada por conta própria.</p>
+
+      <h3>4. Logo, importação e exportação</h3>
+      <ul>
+        <li>O logo é escolhido com o seletor de fotos do Android; o app só acessa a imagem escolhida e guarda uma cópia local.</li>
+        <li>Importar e exportar (Excel, CSV, PDF, JPG) usam o seletor de arquivos do sistema: o app só lê ou grava os arquivos que você escolher.</li>
+      </ul>
+
+      <h3>5. Backup no Google Drive (opcional)</h3>
+      <ul>
+        <li>Somente se você ativar, o app entra com o Google via OAuth 2.0 para acessar <strong>apenas</strong> a pasta privada do app no seu próprio Google Drive (escopo <code>drive.appdata</code>). Ele não vê seus outros arquivos.</li>
+        <li>Nunca pedimos nem guardamos sua senha do Google.</li>
+        <li>O backup é criptografado no celular (AES-256-GCM) com uma chave derivada de uma frase escolhida por você. Não conhecemos essa frase: se você a perder, não podemos recuperar o backup.</li>
+        <li>Você pode desconectar a conta quando quiser; os dados do celular não são excluídos. Os backups podem ser excluídos na sua conta Google.</li>
+      </ul>
+
+      <h3>6. Compras</h3>
+      <p>As compras do QuoteNova Pro são processadas pelo Google Play. Não recebemos nem guardamos dados de pagamento. O app consulta o Google Play sobre o status das suas compras para ativar o Pro.</p>
+
+      <h3>7. Anúncios, análise e rastreamento</h3>
+      <p>O app não exibe anúncios, não inclui SDKs de anúncios nem de análise, não usa o ID de publicidade e não compartilha nem vende dados.</p>
+
+      <h3>8. Notificações</h3>
+      <p>Os alertas (vencimento e acompanhamento) são agendados no celular com seus dados locais. Você pode desativá-los no app ou nas configurações do Android.</p>
+
+      <h3>9. Permissões</h3>
+      <ul>
+        <li><strong>Internet e estado da rede:</strong> apenas para o backup no Drive e as compras do Google Play.</li>
+        <li><strong>Notificações:</strong> para os alertas que você ativar.</li>
+        <li><strong>Inicialização do celular:</strong> para reagendar os alertas após reiniciar.</li>
+      </ul>
+      <p>O app não pede acesso a contatos, localização, câmera, microfone nem armazenamento geral.</p>
+
+      <h3>10. Segurança</h3>
+      <p>Os dados ficam no armazenamento privado do app. Os backups no Drive são criptografados no envio e no armazenamento. O backup automático do Android está desativado para o app.</p>
+
+      <h3>11. Retenção e exclusão de dados</h3>
+      <p>Os dados ficam no seu celular até você excluí-los. Você pode excluí-los em <strong>Mais › Dados › Excluir todos os dados</strong> ou desinstalando o app. Os backups no Drive são excluídos na sua conta Google.</p>
+
+      <h3>12. Menores</h3>
+      <p>O app não é direcionado a menores de 13 anos.</p>
+
+      <h3>13. Alterações</h3>
+      <p>Qualquer alteração nesta política será publicada nesta página com a data de atualização.</p>
+
+      <h3>14. Contato</h3>
+      <p>Dúvidas ou solicitações: <a href="mailto:SOPORTE@EJEMPLO.COM">SOPORTE@EJEMPLO.COM</a></p>
+    </article>
+  </main>
+
+  <footer>© 2026 QuoteNova · Alfredo Yujra</footer>
+
+  <script>
+    // Muestra un idioma a la vez: el del enlace (#es, #en, #pt) o el del navegador.
+    (function () {
+      var langs = ['es', 'en', 'pt'];
+      var titles = {
+        es: ['Política de privacidad y de uso personal', 'Generador de cotizaciones para Android'],
+        en: ['Privacy and personal-use policy', 'Quote generator for Android'],
+        pt: ['Política de privacidade e de uso pessoal', 'Gerador de orçamentos para Android']
+      };
+      document.documentElement.classList.add('js');
+      function pick() {
+        var h = (location.hash || '').slice(1);
+        if (langs.indexOf(h) >= 0) return h;
+        var n = (navigator.language || 'es').slice(0, 2).toLowerCase();
+        return langs.indexOf(n) >= 0 ? n : 'es';
+      }
+      function show(lang) {
+        document.querySelectorAll('article[data-lang]').forEach(function (a) {
+          a.classList.toggle('active', a.dataset.lang === lang);
+        });
+        document.querySelectorAll('nav.langs a').forEach(function (a) {
+          a.setAttribute('aria-current', a.dataset.go === lang ? 'true' : 'false');
+        });
+        document.documentElement.lang = lang;
+        document.getElementById('page-title').textContent = titles[lang][0];
+        document.getElementById('page-sub').textContent = titles[lang][1];
+        document.title = 'QuoteNova · ' + titles[lang][0];
+      }
+      document.querySelectorAll('nav.langs a').forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          e.preventDefault();
+          history.replaceState(null, '', '#' + a.dataset.go);
+          show(a.dataset.go);
+          window.scrollTo(0, 0);
+        });
+      });
+      window.addEventListener('hashchange', function () { show(pick()); });
+      show(pick());
+    })();
+  </script>
+</body>
+</html>
